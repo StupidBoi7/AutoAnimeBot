@@ -3,8 +3,8 @@ services:
     plan: free
     name: AutoAnimeBot-2.0
     env: python
-    buildCommand: pip install -r requirements.txt
-    startCommand: python bot.py
+    buildCommand: pip3 install -r requirements.txt
+    startCommand: python3 -m AutoAnimeBot
     repo: https://github.com/StupidBoi7/AutoAnimeBot-2.0.git
     branch: main
     autoDeploy: false
@@ -29,7 +29,7 @@ services:
         sync: false
       - key: CHANNEL_TITLE
         sync: false
-      - key: 
+      - key: SCHEDULE_MSG_ID
         sync: false
       - key: TECHZ_API_KEY
         sync: false
