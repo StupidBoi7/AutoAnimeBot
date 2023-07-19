@@ -70,6 +70,9 @@
 
 ### 📝 Deploy
 
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/StupidBoi7/AutoAnimeBot)
+
+
 * Deploy on Heroku
     
     <a href="https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2FTechShreyash%2FAutoAnimeBot"><img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy"></a>
